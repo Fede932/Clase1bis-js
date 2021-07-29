@@ -8,7 +8,7 @@ if (usuario == ""){
         if (contraseña == ""){
             contraseña = document.getElementById('contraseña').focus();
         } else {
-            console.log(usuario+ "" +contraseña);
+            console.log(usuario+ " " +contraseña);
             document.getElementById('usuario').value = "";
             document.getElementById('contraseña').value = "";
             
