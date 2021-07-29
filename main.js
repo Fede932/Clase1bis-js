@@ -11,7 +11,7 @@ if (usuario == ""){
             console.log(usuario+ " " +contraseña);
             document.getElementById('usuario').value = "";
             document.getElementById('contraseña').value = "";
-            
+            alert("Bienvenido");
         }
     }  
 }

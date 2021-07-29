@@ -11,37 +11,18 @@
     <form class="formulario" action="">
         <div>
             <label for="usuario">Usuario</label><br>
-            <input type="text" id='usuario' required>
+            <input type="text" id='usuario'>
         </div>
         <div>
             <label for="contraseña">Contraseña</label><br>
-            <input type="contraseña" id='contraseña' required>
+            <input type="contraseña" id='contraseña'>
         </div>
         <div>
             <input type="button" class="btn btn-green" onclick="getData()" value='Enviar'>
         </div>
 
     </form>
-    <!-- No me anda nada y tengo que guardar datos -->
-<!-- <script>
-    var getData = function(){
-let usuario = document.getElementById('usuario'). value;
-let contraseña = document.getElementById('contraseña'). value;
 
-if (usuario == ""){
-    usuario = document.getElementById('usuario').focus();
-    } else {
-        if (contraseña == ""){
-            contraseña = document.getElementById('contraseña').focus();
-        } else {
-            console.log(usuario+ "" +contraseña);
-            document.getElementById('usuario'). value = "";
-            document.getElementById('contraseña'). value = "";
-            
-        }
-    }  
-}
-</script> -->
 <script src="./main.js"></script>   
 </body>
 </html>
