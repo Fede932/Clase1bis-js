@@ -1,6 +1,6 @@
 var getData = function(){
-let usuario = document.getElementById('usuario'). value;
-let contraseña = document.getElementById('contraseña'). value;
+let usuario = document.getElementById('usuario').value;
+let contraseña = document.getElementById('contraseña').value;
 
 if (usuario == ""){
     usuario = document.getElementById('usuario').focus();
@@ -9,8 +9,8 @@ if (usuario == ""){
             contraseña = document.getElementById('contraseña').focus();
         } else {
             console.log(usuario+ "" +contraseña);
-            document.getElementById('usuario'). value = "";
-            document.getElementById('contraseña'). value = "";
+            document.getElementById('usuario').value = "";
+            document.getElementById('contraseña').value = "";
             
         }
     }  
